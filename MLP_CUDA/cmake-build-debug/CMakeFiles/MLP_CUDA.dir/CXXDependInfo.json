@@ -1,0 +1,32 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/User/CLionProjects/MLP_CUDA",
+	"dir-top-bld" : "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug",
+	"dir-top-src" : "C:/Users/User/CLionProjects/MLP_CUDA",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug/CMakeFiles/MLP_CUDA.dir",
+	"sources" : 
+	{
+		"CMakeFiles/MLP_CUDA.dir/data/mnist_loader.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/User/CLionProjects/MLP_CUDA/data/mnist_loader.cpp"
+		},
+		"CMakeFiles/MLP_CUDA.dir/src/cuda_mlp_main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/User/CLionProjects/MLP_CUDA/src/cuda_mlp_main.cpp"
+		}
+	}
+}

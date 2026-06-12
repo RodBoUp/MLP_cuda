@@ -1,0 +1,3 @@
+C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug/CMakeFiles/MLP_CUDA.dir
+C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug/CMakeFiles/rebuild_cache.dir

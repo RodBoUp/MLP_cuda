@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\MLP_CUDA.dir\\mnist_loader.cpp.obj",
+            "outputs": [
+                "C:\\Users\\User\\CLionProjects\\MLP_CUDA\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\MLP_CUDA.dir\\mnist_loader.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

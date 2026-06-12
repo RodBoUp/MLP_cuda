@@ -1,0 +1,5 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\MLP_CUDA.dir\src\cuda_mlp_main.cpp.obj: dyndep
+
+build CMakeFiles\MLP_CUDA.dir\data\mnist_loader.cpp.obj: dyndep
+

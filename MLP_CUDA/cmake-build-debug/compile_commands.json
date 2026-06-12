@@ -1,0 +1,26 @@
+[
+{
+  "directory": "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od -std:c++20 -MDd -RTC1 -Zi @CMakeFiles\\MLP_CUDA.dir\\src\\cuda_mlp_main.cpp.obj.modmap /FoCMakeFiles\\MLP_CUDA.dir\\src\\cuda_mlp_main.cpp.obj /FdCMakeFiles\\MLP_CUDA.dir\\ /FS -c C:\\Users\\User\\CLionProjects\\MLP_CUDA\\src\\cuda_mlp_main.cpp",
+  "file": "C:/Users/User/CLionProjects/MLP_CUDA/src/cuda_mlp_main.cpp",
+  "output": "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug/CMakeFiles/MLP_CUDA.dir/src/cuda_mlp_main.cpp.obj"
+},
+{
+  "directory": "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -D_WINDOWS -Xcompiler=\" /EHsc\" -Xcompiler=\" -Ob0 -Od\" -std=c++20 \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" -Xcompiler=-MDd -Xcompiler=-RTC1 -Xcompiler=-Zi -x cu -c C:\\Users\\User\\CLionProjects\\MLP_CUDA\\src\\gpu_layer.cu -o CMakeFiles\\MLP_CUDA.dir\\src\\gpu_layer.cu.obj -Xcompiler=-FdCMakeFiles\\MLP_CUDA.dir\\,-FS",
+  "file": "C:/Users/User/CLionProjects/MLP_CUDA/src/gpu_layer.cu",
+  "output": "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug/CMakeFiles/MLP_CUDA.dir/src/gpu_layer.cu.obj"
+},
+{
+  "directory": "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\NVIDIA~2\\CUDA\\v13.3\\bin\\nvcc.exe -forward-unknown-to-host-compiler -D_WINDOWS -Xcompiler=\" /EHsc\" -Xcompiler=\" -Ob0 -Od\" -std=c++20 \"--generate-code=arch=compute_75,code=[compute_75,sm_75]\" -Xcompiler=-MDd -Xcompiler=-RTC1 -Xcompiler=-Zi -x cu -c C:\\Users\\User\\CLionProjects\\MLP_CUDA\\src\\gpu_mlp.cu -o CMakeFiles\\MLP_CUDA.dir\\src\\gpu_mlp.cu.obj -Xcompiler=-FdCMakeFiles\\MLP_CUDA.dir\\,-FS",
+  "file": "C:/Users/User/CLionProjects/MLP_CUDA/src/gpu_mlp.cu",
+  "output": "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug/CMakeFiles/MLP_CUDA.dir/src/gpu_mlp.cu.obj"
+},
+{
+  "directory": "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\MICROS~4\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1442~1.344\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od -std:c++20 -MDd -RTC1 -Zi @CMakeFiles\\MLP_CUDA.dir\\data\\mnist_loader.cpp.obj.modmap /FoCMakeFiles\\MLP_CUDA.dir\\data\\mnist_loader.cpp.obj /FdCMakeFiles\\MLP_CUDA.dir\\ /FS -c C:\\Users\\User\\CLionProjects\\MLP_CUDA\\data\\mnist_loader.cpp",
+  "file": "C:/Users/User/CLionProjects/MLP_CUDA/data/mnist_loader.cpp",
+  "output": "C:/Users/User/CLionProjects/MLP_CUDA/cmake-build-debug/CMakeFiles/MLP_CUDA.dir/data/mnist_loader.cpp.obj"
+}
+]
