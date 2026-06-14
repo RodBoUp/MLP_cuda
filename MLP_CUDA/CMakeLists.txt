@@ -10,6 +10,7 @@ add_executable(MLP_CUDA src/cuda_mlp_main.cpp
         src/gpu_layer.cu
         src/gpu_layer.h
         src/gpu_mlp.cu
-        src/gpu_mlp.h
+        src/gpu_mlp.cuh
         data/mnist_loader.cpp
-        data/mnist_loader.h)
+        data/mnist_loader.h
+        src/gpu_mlp_errors.cu)

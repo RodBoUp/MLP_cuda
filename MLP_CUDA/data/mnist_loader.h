@@ -8,9 +8,13 @@
 
 using namespace std;
 
-struct MNIST_Data{
-    vector<vector<float>> images;
-    vector<int> labels;
+struct MNIST_Data
+{
+    std::vector<float> images;
+    std::vector<int> labels;
+
+    int imageCount;
+    int imageSize;
 };
 
 MNIST_Data loadMNIST( const string& imagesPath, const string& labelsPath, int limit);

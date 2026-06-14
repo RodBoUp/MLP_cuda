@@ -101,6 +101,15 @@ build CMakeFiles\MLP_CUDA.dir\data\mnist_loader.cpp.obj: CXX_COMPILER__MLP_CUDA_
   TARGET_PDB = MLP_CUDA.pdb
   dyndep = CMakeFiles/MLP_CUDA.dir/CXX.dd
 
+build CMakeFiles\MLP_CUDA.dir\src\gpu_mlp_errors.cu.obj: CUDA_COMPILER__MLP_CUDA_unscanned_Debug C$:\Users\User\CLionProjects\MLP_CUDA\src\gpu_mlp_errors.cu || cmake_object_order_depends_target_MLP_CUDA
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\MLP_CUDA.dir\src\gpu_mlp_errors.cu.obj.d
+  FLAGS = -D_WINDOWS -Xcompiler=" /EHsc" -Xcompiler=" -Ob0 -Od" -std=c++20 "--generate-code=arch=compute_75,code=[compute_75,sm_75]" -Xcompiler=-MDd -Xcompiler=-RTC1 -Xcompiler=-Zi
+  OBJECT_DIR = CMakeFiles\MLP_CUDA.dir
+  OBJECT_FILE_DIR = CMakeFiles\MLP_CUDA.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\MLP_CUDA.dir\
+  TARGET_PDB = MLP_CUDA.pdb
+
 build CMakeFiles\MLP_CUDA.dir\CXX.dd | CMakeFiles\MLP_CUDA.dir\CXXModules.json CMakeFiles\MLP_CUDA.dir\src\cuda_mlp_main.cpp.obj.modmap CMakeFiles\MLP_CUDA.dir\data\mnist_loader.cpp.obj.modmap: CXX_DYNDEP__MLP_CUDA_Debug CMakeFiles\MLP_CUDA.dir\src\cuda_mlp_main.cpp.obj.ddi CMakeFiles\MLP_CUDA.dir\data\mnist_loader.cpp.obj.ddi | C$:\Users\User\CLionProjects\MLP_CUDA\cmake-build-debug\CMakeFiles\MLP_CUDA.dir\CXXDependInfo.json
 
 
@@ -111,7 +120,7 @@ build CMakeFiles\MLP_CUDA.dir\CXX.dd | CMakeFiles\MLP_CUDA.dir\CXXModules.json C
 #############################################
 # Link the executable MLP_CUDA.exe
 
-build MLP_CUDA.exe: CXX_EXECUTABLE_LINKER__MLP_CUDA_Debug CMakeFiles\MLP_CUDA.dir\src\cuda_mlp_main.cpp.obj CMakeFiles\MLP_CUDA.dir\src\gpu_layer.cu.obj CMakeFiles\MLP_CUDA.dir\src\gpu_mlp.cu.obj CMakeFiles\MLP_CUDA.dir\data\mnist_loader.cpp.obj
+build MLP_CUDA.exe: CXX_EXECUTABLE_LINKER__MLP_CUDA_Debug CMakeFiles\MLP_CUDA.dir\src\cuda_mlp_main.cpp.obj CMakeFiles\MLP_CUDA.dir\src\gpu_layer.cu.obj CMakeFiles\MLP_CUDA.dir\src\gpu_mlp.cu.obj CMakeFiles\MLP_CUDA.dir\data\mnist_loader.cpp.obj CMakeFiles\MLP_CUDA.dir\src\gpu_mlp_errors.cu.obj
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od -MDd -RTC1 -Zi
   LINK_FLAGS = /debug /INCREMENTAL /subsystem:console
